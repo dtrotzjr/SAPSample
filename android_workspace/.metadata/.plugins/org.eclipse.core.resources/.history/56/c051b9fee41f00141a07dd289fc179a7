@@ -1,0 +1,9 @@
+<resources>
+    <application>
+        <serviceProfile 
+            id ="/system/sapsample"
+            name = "sapsample">
+            
+        </serviceProfile>
+    </application>
+</resources>

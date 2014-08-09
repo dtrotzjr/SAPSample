@@ -1,0 +1,26 @@
+var SAAgent = null;
+var SASocket = null;
+var CHANNELID = 123;
+var ProviderAppName = "SimpleSAPProvider";
+
+function createHTML(log_string) {
+	var log = document.getElementById("resultBoard");
+	log.innerHTML = log.innerHTML + "<br> : " + log_string;
+}
+
+function onerror(err) {
+	console.log("ONERROR: err [" + err.name + "] msg [" + err.message + "]");
+}
+
+var agentCallback = {
+	onconnect : function(socket) {
+		console.log("agentCallback onconnect" + socket);
+		SASocket socket;
+		alert("SAP Connection established with RemotePeer");
+		createHTML("startConnection");
+		SASocket.setSocketStatusListener(function(reason) {
+			console.log("Service connection lost, Reason: [" + reason + "]");
+			disconnect();
+		})
+	}	
+};

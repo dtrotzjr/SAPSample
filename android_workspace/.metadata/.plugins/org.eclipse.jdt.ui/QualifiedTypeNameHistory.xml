@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.samsung.android.sdk.accessory.SAAgent"/>
+<fullyQualifiedTypeName name="android.os.Binder"/>
+<fullyQualifiedTypeName name="com.test.simplesapprovider.service.SAPServiceProvider"/>
+<fullyQualifiedTypeName name="com.samsung.android.sdk.accessory.SASocket"/>
+<fullyQualifiedTypeName name="android.util.Log"/>
+<fullyQualifiedTypeName name="android.text.format.Time"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="android.os.Build"/>
+<fullyQualifiedTypeName name="com.test.simplesapprovider.service.SAPServiceProvider.LocalBinder"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="com.test.simplesapprovider.service.SAPServiceProvider.SAPServiceProviderConnection"/>
+<fullyQualifiedTypeName name="android.widget.Toast"/>
+<fullyQualifiedTypeName name="com.samsung.android.sdk.accessory.SA"/>
+<fullyQualifiedTypeName name="com.samsung.android.sdk.SsdkUnsupportedException"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="61" version="2.0">
+<workbenchAdvisor/>
+<window height="1178" maximized="true" width="1757" x="0" y="22">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout>
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="134" y="22"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.debug.ui.SmartLaunchActionSet" itemType="typeToolBarContribution" x="40" y="22"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="100" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="62" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="32" y="22"/>
+<coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.tizen.common.cert.actionSet" itemType="typeToolBarContribution" x="88" y="22"/>
+<coolItem id="org.tizen.web.browser.actionSet" itemType="typeToolBarContribution" x="32" y="22"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="152" y="22"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.wst.jsdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.tizen.web.editor.html.HTMLEditor" itemType="typeToolBarContribution" x="248" y="22"/>
+<coolItem id="org.eclipse.ui.browser.editor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.tizen.web.editor.javascript.JavascriptEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.tizen.web.editor.css.CSSEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page aggregateWorkingSetId="Aggregate for window 1407375853802" focus="true" label="Workspace - Tizen Web">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="org.tizen.web.editor.html.HTMLEditor" name="index.html" partName="index.html" path="/Users/dctrotz/tizen_workspace/SimpleSAPConsumer/index.html" title="index.html" tooltip="SimpleSAPConsumer/index.html" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SimpleSAPConsumer/index.html"/>
+</editor>
+<editor id="org.tizen.web.editor.javascript.JavascriptEditor" name="main.js" partName="main.js" path="/Users/dctrotz/tizen_workspace/SimpleSAPConsumer/js/main.js" title="main.js" tooltip="SimpleSAPConsumer/js/main.js" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SimpleSAPConsumer/js/main.js"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="712" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.tizen.web.editor.css.CSSEditor" name="style.css" partName="style.css" path="/Users/dctrotz/Development/Workspaces/IntegratedSample/tizen_workspace/SimpleSAPConsumer/css/style.css" title="style.css" tooltip="SimpleSAPConsumer/css/style.css" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SimpleSAPConsumer/css/style.css"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="313" selectionTopPixel="0"/>
+</editor>
+<editor id="org.tizen.web.project.tizenw.configuration.serviceprofile.xmleditor" name="sapservices.xml" partName="sapservices.xml" path="/Users/dctrotz/tizen_workspace/SimpleSAPConsumer/res/xml/sapservices.xml" title="sapservices.xml" tooltip="SimpleSAPConsumer/res/xml/sapservices.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SimpleSAPConsumer/res/xml/sapservices.xml"/>
+</editor>
+</editors>
+<views>
+<view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.cdt.ui.cview.groupincludes="false" org.eclipse.cdt.ui.cview.groupmacros="false" org.eclipse.cdt.ui.editor.CUChildren="true" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
+</view>
+<view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
+<viewState/>
+</view>
+<view id="org.eclipse.search.ui.views.SearchView" partName="Search">
+<viewState isPinned="false">
+<view IMemento.internal.id="" org.eclipse.search.lastActivation="0"/>
+</viewState>
+</view>
+<view id="org.eclipse.ui.views.ProblemView" partName="Problems">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.tizen.common.connection.explorer.ConnectionExplorer" partName="Connection Explorer">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+</views>
+<perspectives activePart="org.tizen.web.editor.css.CSSEditor" activePerspective="org.tizen.web.ui.perspective.WebWidget">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.tizen.web.project.ui.perspective.WebWidgetPerspectiveFactory" id="org.tizen.web.ui.perspective.WebWidget" label="Tizen Web"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.doc.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.tasks.ui.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.tizen.common.cert.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.SmartLaunchActionSet"/>
+<alwaysOnActionSet id="org.tizen.web.browser.actionSet"/>
+<show_view_action id="org.tizen.common.connection.explorer.ConnectionExplorer"/>
+<show_view_action id="org.tizen.common.connection.log.LogView"/>
+<new_wizard_action id="org.tizen.web.project.wizard.webapp"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="org.eclipse.ui.views.PropertySheet"/>
+<view id="org.eclipse.search.ui.views.SearchView"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.tizen.common.connection.explorer.ConnectionExplorer"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="topLeft">
+<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="762" ratioRight="254" relationship="2" relative="topLeft">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="254" ratioRight="762" relationship="2" relative="topLeft"/>
+<info folder="true" part="topRight" ratio="0.77890176" ratioLeft="539" ratioRight="153" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="org.eclipse.debug.ui.DebugView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="bottomRight" ratio="0.49925926" ratioLeft="337" ratioRight="338" relationship="4" relative="topRight">
+<folder activePageID="org.eclipse.search.ui.views.SearchView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="Search"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="bottom" ratio="0.7496296" ratioLeft="506" ratioRight="169" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@4e5abf3f" ratio="0.49925926" ratioLeft="337" ratioRight="338" relationship="4" relative="topLeft">
+<folder activePageID="org.tizen.common.connection.explorer.ConnectionExplorer" appearance="2" expanded="2">
+<page content="org.tizen.common.connection.explorer.ConnectionExplorer" label="Connection Explorer"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.tizen.web.editor.html.HTMLEditor" path="/SimpleSAPConsumer/index.html"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.tizen.web.editor.javascript.JavascriptEditor" path="/SimpleSAPConsumer/js/main.js"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.tizen.web.editor.css.CSSEditor" path="/SimpleSAPConsumer/css/style.css"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.tizen.web.project.tizenw.configuration.serviceprofile.xmleditor" path="/SimpleSAPConsumer/res/xml/sapservices.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.tizen.web.editor.configuration.ConfigurationEditor" path="/SimpleSAPConsumer/config.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.tizen.web.project.tizenw.configuration.serviceprofile.xmleditor" path="/SimpleSAPConsumer/res/xml/sapservices.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.tizen.web.editor.configuration.ConfigurationEditor" path="/SimpleSAPConsumer/config.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.tizen.web.editor.css.CSSEditor" path="/SimpleSAPConsumer/css/style.css"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.tizen.web.editor.javascript.JavascriptEditor" path="/SimpleSAPConsumer/js/main.js"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.tizen.web.editor.html.HTMLEditor" path="/SimpleSAPConsumer/index.html"/>
+</editors>
+<item historyLabel="main.js" index="1">
+<position info="not_deleted" x="1700" y="0"/>
+</item>
+<item historyLabel="main.js" index="1">
+<position info="not_deleted" x="1712" y="0"/>
+</item>
+<item historyLabel="main.js" index="1">
+<position info="not_deleted" x="1698" y="0"/>
+</item>
+<item historyLabel="main.js" index="1">
+<position info="not_deleted" x="1478" y="0"/>
+</item>
+<item historyLabel="main.js" index="1">
+<position info="not_deleted" x="1616" y="0"/>
+</item>
+<item historyLabel="main.js" index="1">
+<position info="not_deleted" x="1568" y="0"/>
+</item>
+<item historyLabel="main.js" index="1">
+<position info="not_deleted" x="1616" y="0"/>
+</item>
+<item historyLabel="main.js" index="1">
+<position info="not_deleted" x="1656" y="0"/>
+</item>
+<item historyLabel="main.js" index="1">
+<position info="not_deleted" x="1694" y="0"/>
+</item>
+<item historyLabel="main.js" index="1">
+<position info="not_deleted" x="1692" y="0"/>
+</item>
+<item historyLabel="main.js" index="1">
+<position info="not_deleted" x="1864" y="0"/>
+</item>
+<item historyLabel="main.js" index="1">
+<position info="not_deleted" x="1887" y="0"/>
+</item>
+<item historyLabel="main.js" index="1">
+<position info="not_deleted" x="1904" y="0"/>
+</item>
+<item historyLabel="main.js" index="1">
+<position info="not_deleted" x="1953" y="0"/>
+</item>
+<item historyLabel="main.js" index="1">
+<position info="not_deleted" x="2001" y="0"/>
+</item>
+<item historyLabel="main.js" index="1">
+<position info="not_deleted" x="2012" y="0"/>
+</item>
+<item historyLabel="main.js" index="1">
+<position info="not_deleted" x="2195" y="0"/>
+</item>
+<item historyLabel="main.js" index="1">
+<position info="not_deleted" x="2230" y="0"/>
+</item>
+<item historyLabel="main.js" index="1">
+<position info="not_deleted" x="2465" y="0"/>
+</item>
+<item historyLabel="main.js" index="1">
+<position info="not_deleted" x="2521" y="0"/>
+</item>
+<item historyLabel="main.js" index="1">
+<position info="not_deleted" x="2664" y="0"/>
+</item>
+<item historyLabel="main.js" index="1">
+<position info="not_deleted" x="2804" y="0"/>
+</item>
+<item historyLabel="main.js" index="1">
+<position info="not_deleted" x="2719" y="0"/>
+</item>
+<item historyLabel="main.js" index="1">
+<position info="not_deleted" x="2746" y="0"/>
+</item>
+<item historyLabel="main.js" index="1">
+<position info="not_deleted" x="2806" y="0"/>
+</item>
+<item historyLabel="style.css" index="2">
+<position info="not_deleted" x="333" y="0"/>
+</item>
+<item historyLabel="index.html" index="0"/>
+<item historyLabel="style.css" index="2">
+<position info="not_deleted" x="333" y="0"/>
+</item>
+<item historyLabel="sapservices.xml" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="config.xml" index="4"/>
+<item historyLabel="main.js" index="1">
+<position info="not_deleted" x="2806" y="0"/>
+</item>
+<item historyLabel="main.js" index="1">
+<position info="not_deleted" x="986" y="0"/>
+</item>
+<item historyLabel="main.js" index="1">
+<position info="not_deleted" x="4" y="7"/>
+</item>
+<item historyLabel="sapservices.xml" index="5">
+<position info="not_deleted" x="1573" y="0"/>
+</item>
+<item historyLabel="config.xml" index="6"/>
+<item historyLabel="sapservices.xml" index="5">
+<position info="not_deleted" x="1573" y="0"/>
+</item>
+<item historyLabel="config.xml" index="6"/>
+<item historyLabel="main.js" index="1">
+<position info="not_deleted" x="712" y="0"/>
+</item>
+<item historyLabel="sapservices.xml" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="style.css" index="7">
+<position/>
+</item>
+<item historyLabel="main.js" index="8">
+<position info="not_deleted" x="712" y="0"/>
+</item>
+<item historyLabel="index.html" index="9"/>
+<item historyLabel="style.css" index="7">
+<position/>
+</item>
+<item historyLabel="index.html" index="9"/>
+<item historyLabel="style.css" index="7">
+<position/>
+</item>
+<item historyLabel="main.js" index="8">
+<position info="not_deleted" x="712" y="0"/>
+</item>
+<item historyLabel="index.html" index="9"/>
+<item historyLabel="style.css" index="7">
+<position/>
+</item>
+<item historyLabel="index.html" index="9"/>
+<item active="true" historyLabel="style.css" index="7">
+<position info="not_deleted" x="355" y="0"/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+<trimItem IMemento.internal.id="org.eclipse.mylyn.tasks.ui.trim.container"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.tizen.common.ui.commandbar"/>
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.tizen.web.project.tizenw.configuration.serviceprofile.xmleditor" name="sapservices.xml" tooltip="SimpleSAPConsumer/res/xml/sapservices.xml">
+<persistable path="/SimpleSAPConsumer/res/xml/sapservices.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.tizen.web.editor.configuration.ConfigurationEditor" name="config.xml" tooltip="SimpleSAPConsumer/config.xml">
+<persistable path="/SimpleSAPConsumer/config.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.tizen.web.editor.css.CSSEditor" name="style.css" tooltip="SimpleSAPConsumer/css/style.css">
+<persistable path="/SimpleSAPConsumer/css/style.css"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.tizen.web.editor.javascript.JavascriptEditor" name="main.js" tooltip="SimpleSAPConsumer/js/main.js">
+<persistable path="/SimpleSAPConsumer/js/main.js"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.tizen.web.editor.html.HTMLEditor" name="index.html" tooltip="SimpleSAPConsumer/index.html">
+<persistable path="/SimpleSAPConsumer/index.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.tizen.web.editor.configuration.ConfigurationEditor" name="config.xml" tooltip="SampleTest/config.xml">
+<persistable path="/SampleTest/config.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.tizen.web.editor.javascript.JavascriptEditor" name="app.js" tooltip="SampleTest/app.js">
+<persistable path="/SampleTest/app.js"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.tizen.web.editor.javascript.JavascriptEditor" name="lowBatteryCheck.js" tooltip="SampleTest/lowBatteryCheck.js">
+<persistable path="/SampleTest/lowBatteryCheck.js"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.tizen.web.editor.html.HTMLEditor" name="index.html" tooltip="SampleTest/index.html">
+<persistable path="/SampleTest/index.html"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.tizen.web.editor.javascript.JavascriptEditor" name="app.js" tooltip="/var/folders/z3/h8690dw572zc6wydskw_fq6r0000gn/T/zip-1197617453/js/app.js">
+<persistable uri="file:/var/folders/z3/h8690dw572zc6wydskw_fq6r0000gn/T/zip-1197617453/js/app.js"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.tizen.web.editor.javascript.JavascriptEditor" name="app.js" tooltip="BasicTest/js/app.js">
+<persistable path="/BasicTest/js/app.js"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.tizen.web.editor.javascript.JavascriptEditor" name="app.js" tooltip="Yotta/js/app.js">
+<persistable path="/Yotta/js/app.js"/>
+</file>
+<file factoryID="org.eclipse.wst.jsdt.ui.ClassFileEditorInputFactory" id="org.eclipse.wst.jsdt.ui.ClassFileEditor" name="tizen.js" tooltip="tizen">
+<persistable org.eclipse.wst.jsdt.ui.ClassFileIdentifier="=AnalogTest/\/Users\/dctrotz\/tizen_workspace\/.metadata\/.plugins\/org.tizen.web.project\/JSLibs\/tizenw-1.0\/tizen.js&lt;(\/Users\/dctrotz\/tizen_workspace\/.metadata\/.plugins\/org.tizen.web.project\/JSLibs\/tizenw-1.0\/tizen.js"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.tizen.web.editor.javascript.JavascriptEditor" name="lowBatteryCheck.js" tooltip="AnalogTest/js/lowBatteryCheck.js">
+<persistable path="/AnalogTest/js/lowBatteryCheck.js"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.tizen.web.editor.javascript.JavascriptEditor" name="main.js" tooltip="Yotta/js/main.js">
+<persistable path="/Yotta/js/main.js"/>
+</file>
+</mruList>
+</workbench>

@@ -1,0 +1,6 @@
+INDEX VERSION 1.126+/Users/dctrotz/Documents/android_workspace/.metadata/.plugins/org.eclipse.jdt.core
+2207728546.index
+2434029183.index
+4035533438.index
+734077112.index
+2912179000.index

@@ -1,0 +1,24 @@
+  <resources>
+    <application name = "SimpleSAPConsumer">
+        <serviceProfile 
+            id ="/system/sapsample"
+            name = "sapsample"
+            role = "consumer"
+            serviceImpl = "com.test.simplesapprovider.service.SAPServiceProvider"
+            version = "1.0"
+            serviceLimit = "ANY"
+            serviceTimeout = "10">
+            <supportedTransports>
+                <transport type = "TRANSPORT_WIFI" />
+                 <transport type="TRANSPORT_BLE"/>
+                 <transport type="TRANSPORT_BT"/>
+                 <transport type="TRANSPORT_USB"/>
+            </supportedTransports>
+            <serviceChannel 
+                id = "123"
+                dataRate = "Low"
+                priority = "Low"
+                reliability = "enable" />
+        </serviceProfile>
+    </application>
+</resources>

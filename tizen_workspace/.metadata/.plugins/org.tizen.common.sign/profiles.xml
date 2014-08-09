@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<profiles version="3.0">
+<profile name="default">
+<profileitem ca="" distributor="0" key="/Users/dctrotz/tizen-wearable-sdk-data/keystore/author.p12" password="fzMj+JgJ3xD54g6P4txbJQ==" rootca=""/>
+<profileitem ca="" distributor="1" key="/Users/dctrotz/tizen-wearable-sdk-data/keystore/distributor.p12" password="fzMj+JgJ3xD54g6P4txbJQ==" rootca=""/>
+</profile>
+<profile name="defaultForAndroid">
+<profileitem ca="" distributor="0" key="/Users/dctrotz/tizen-wearable-sdk-data/keystore/android/author.p12" password="JMHJELwj3Cb5pbmuNs1+dcZhHK1z5dbL" rootca=""/>
+<profileitem ca="" distributor="1" key="/Users/dctrotz/tizen-wearable-sdk-data/keystore/android/distributor.p12" password="JMHJELwj3Cb5pbmuNs1+dcZhHK1z5dbL" rootca=""/>
+</profile>
+</profiles>

@@ -1,0 +1,146 @@
+package com.test.simplesapprovider.service;
+
+import java.io.IOException;
+import java.util.HashMap;
+
+import android.content.Intent;
+import android.os.Binder;
+import android.os.Build;
+import android.os.IBinder;
+import android.text.format.Time;
+import android.util.Log;
+import android.widget.Toast;
+
+import com.samsung.android.sdk.SsdkUnsupportedException;
+import com.samsung.android.sdk.accessory.SA;
+import com.samsung.android.sdk.accessory.SAAgent;
+import com.samsung.android.sdk.accessory.SAPeerAgent;
+import com.samsung.android.sdk.accessory.SASocket;
+
+public class SAPServiceProvider extends SAAgent {
+	public final static String TAG = "SAPServiceProvider";
+	public final static int SAP_SERVICE_CHANNEL_ID = 123;
+	private final IBinder mIBinder = new LocalBinder();
+	HashMap<Integer, SAPServiceProviderConnection> connectionMap = null;
+	
+	public SAPServiceProvider() {
+		super(TAG, SAPServiceProviderConnection.class);
+		// 
+	}
+
+	@Override
+	protected void onFindPeerAgentResponse(SAPeerAgent arg0, int arg1) {
+		// TODO Auto-generated method stub
+//		Log.d(TAG, "Got here!");
+	}
+
+	@Override
+	protected void onServiceConnectionResponse(SASocket thisConnection, int result) {
+		if (result == CONNECTION_SUCCESS) {
+			if (thisConnection != null) {
+				SAPServiceProviderConnection myConnection = (SAPServiceProviderConnection) thisConnection;
+				
+				if (connectionMap == null) {
+					connectionMap = new HashMap<Integer, SAPServiceProviderConnection>();
+				}
+				myConnection.connectionID = (int)(System.currentTimeMillis() & 255);
+				Log.d(TAG, "onServiceConnection connectionID: " + myConnection.connectionID);
+				
+				connectionMap.put(myConnection.connectionID, myConnection);
+				Toast.makeText(getBaseContext(), "CONNECTION_ESTABLISHED", Toast.LENGTH_LONG).show();
+			} else {
+				Log.e(TAG, "SASocket object is null");
+			}
+		} else if (result == CONNECTION_ALREADY_EXIST) {
+			Log.e(TAG, "onServiceConnectionResponse, CONNECTION_ALREADY_EXIST");
+		} else {
+			Log.e(TAG, "onServiceConnectionResponse result error =" + result);
+		}
+		
+	}
+	public String getDeviceInfo() {
+		String manufacturer = Build.MANUFACTURER;
+		String model = Build.MODEL;
+		return manufacturer + " " + model;
+	}
+	@Override
+	public IBinder onBind(Intent arg0) {
+		return mIBinder;
+	}
+	
+	@Override
+	public void onCreate() {
+		super.onCreate();
+		SA mAccesssory = new SA();
+		try {
+			mAccesssory.initialize(this);
+			Log.d("SAP_PROVIDER", "ON CREATE TRY BLOCK");
+		} catch (SsdkUnsupportedException e) {
+			Log.d("SAP_PROVIDER", "ON CREATE TRY BLOCK ERROR UNSUPPORTED SDK");
+		} catch (Exception e1) {
+			Log.e(TAG, "CAnnot initialize Accessory package.");
+			e1.printStackTrace();
+			stopSelf();
+		}
+	}
+	
+	@Override
+	protected void onServiceConnectionRequested(SAPeerAgent peerAgent) {
+		acceptServiceConnectionRequest(peerAgent);
+	}
+	
+	public class LocalBinder  extends Binder {
+		public SAPServiceProvider getService() {
+			return SAPServiceProvider.this;
+		}
+	}
+	
+	public class SAPServiceProviderConnection extends SASocket {
+
+		private int connectionID;
+		
+		protected SAPServiceProviderConnection() {
+			super(SAPServiceProviderConnection.class.getName());
+			// TODO Auto-generated constructor stub
+		}
+
+		@Override
+		public void onError(int channelID, String errorString, int errorCode) {
+			Log.e(TAG, "ERROR: " + errorString + " | " + errorCode);
+		}
+
+		@Override
+		public void onReceive(int channelId, byte[] data) {
+			final String message;
+			Time time = new Time();
+			time.set(System.currentTimeMillis());
+			String timeStr = " " + String.valueOf(time.minute) + ":" + String.valueOf(time.second);
+			String strToUpdateUI = new String(data);
+			message = getDeviceInfo() + strToUpdateUI.concat(timeStr);
+			Log.d("SAP MESSAGE", message);
+			
+			final SAPServiceProviderConnection uHandler = connectionMap.get(Integer.parseInt(String.valueOf(connectionID)));
+			if (uHandler == null) {
+				Log.e(TAG, "Error, can not get SAPServiceProviderConnection handler");
+				return;
+			}
+			new Thread(new Runnable() {
+				public void run() {
+					try {
+						uHandler.send(SAP_SERVICE_CHANNEL_ID, message.getBytes());
+					} catch (IOException e) {
+						e.printStackTrace();
+					}
+				}
+			}).start();
+		}
+
+		@Override
+		protected void onServiceConnectionLost(int arg0) {
+			if (connectionMap != null) {
+				connectionMap.remove(connectionID);
+			}
+		}
+		
+	}
+}

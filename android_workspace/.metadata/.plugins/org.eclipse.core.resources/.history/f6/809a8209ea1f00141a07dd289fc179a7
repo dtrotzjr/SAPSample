@@ -1,0 +1,22 @@
+<resources>
+    <application name = "SimpleSAPProvider">
+        <serviceProfile 
+            id ="/system/sapsample"
+            name = "sapsample"
+            role = "provider"
+            serviceImpl = "com.test.simplesapprovider.service.SAPServiceProvider"
+            version = "1.0"
+            serviceLimit = "ANY"
+            serviceTimeout = "10">
+            <supportedTransports>
+                <transport type = "TRANSPORT_WIFI" />
+                 <transport type="TRANSPORT_BT"/>
+            </supportedTransports>
+            <serviceChannel 
+                id = "123"
+                dataRate = "Low"
+                priority = "Low"
+                reliability = "enable" />
+        </serviceProfile>
+    </application>
+</resources>
